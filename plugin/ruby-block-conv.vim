@@ -113,3 +113,4 @@ endfunction
 
 command! -range B <line1>,<line2>call <SID>RubyBlockSwitchDelimiters()
 vmap <Leader>B :call <SID>RubyBlockSwitchDelimiters()<cr>
+nmap <Leader>B :call <SID>RubyBlockSwitchDelimiters()<cr>
